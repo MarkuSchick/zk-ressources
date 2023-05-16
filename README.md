@@ -1,3 +1,1 @@
-# Resource to learn ZK
-
-- 
+# Resources to learn Zero Knowledge Cryptography

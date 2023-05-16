@@ -1,0 +1,1 @@
+# Resources and Homework for the [Uncloak Project](https://uncloak.org/courses/rust+cryptography+engineering/course-Rust+Cryptography+Engineering+Study+Group+Syllabus)
