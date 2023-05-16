@@ -1,0 +1,9 @@
+[submodule "uncloak/uncloak-hw"]
+	path = uncloak/uncloak-hw
+	url = git@github.com:thor314/uncloak-hw.git
+[submodule "rust/elliptic-curves"]
+	path = rust/elliptic-curves
+	url = git@github.com:RustCrypto/elliptic-curves.git
+[submodule "uncloak/uncloak-script"]
+	path = uncloak/uncloak-script
+	url = git@github.com:thor314/uncloak.git
