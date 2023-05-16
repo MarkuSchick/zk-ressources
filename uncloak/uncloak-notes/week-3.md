@@ -8,7 +8,7 @@ $ b || ( M(b) \oplus M(a) \oplus b) $
 
 ## Background
 
-We [review](theory/xor_cipher.md) the XOR operator $\oplus$ (also called "exclusive or" operator) to show this this is true.
+We [review](ressources/xor_cipher.md) the XOR operator $\oplus$ (also called "exclusive or" operator) to show this this is true.
 
 To understand this review the definition of the CBC-MAC:
 

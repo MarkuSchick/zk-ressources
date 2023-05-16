@@ -8,15 +8,15 @@ An elliptic curve 2 is the set of solutions to an equation of the form
 
 $ Y^2 = X^3 + AX + B$
 
-Equations of this type are called Weierstrass equations after the mathematician who ﬁrst studied them. ![image](./theory/elliptic_curves.png)
+Equations of this type are called Weierstrass equations after the mathematician who ﬁrst studied them. ![image](./ressources/elliptic_curves.png)
 
 An amazing feature of elliptic curves is that there is a natural way to take two points on an elliptic curve and "add" them to produce a third point.
 
-![image](./theory/elliptic_curves_addition.png)
+![image](./ressources/elliptic_curves_addition.png)
 
 Special rule for addition to itself
 
-![image](./theory/elliptic_curves_addition_same.png)
+![image](./ressources/elliptic_curves_addition_same.png)
 
 A special rule for addition of Point P (a, b) to the reflection of Point P' (a, -b). The line L through P and P' is the vertical line x = a with no third point of intersection with the curve. The solution is to create an extra point O that lives "at infinity". In other words
 
@@ -117,7 +117,7 @@ and we call n the elliptic discrete logarithm of Q with respect to P.
 
 It appears that the ECDLP is as hard as the discrete logarithm problem for $ \mathbb{F}_p$. But how can we efficiently calculate $Q = nP$ ? We can use the Double-and-Add algorithm to solve this problem. That algorithm is similar to the _fast powering algorithm_ we used to compute $a^n$ in $\mathbb{F}_p^*$.
 
-![image](./theory/double_and_add_algorithm.png)
+![image](./ressources/double_and_add_algorithm.png)
 
 ## 5.3.2 How hard is the ECDLP?
 
@@ -131,20 +131,20 @@ List #2\. $k_1 P + Q, k_2 P + Q . . . , k_rP + Q$
 
 ## 5.4.1 Elliptic Diﬃe–Hellman key exchange
 
-![image](./theory/diffie_hellmann_elliptic_curves.png)
+![image](./ressources/diffie_hellmann_elliptic_curves.png)
 
 `Deﬁnition`. Let $E(\mathbb{F}_p )$ be an elliptic curve over a ﬁnite ﬁeld and let P ∈ $E(\mathbb{F}_p )$. The Elliptic Curve Diﬃe–Hellman Problem is the problem of comput- ing the value of n1 n2 P from the known values of n1 P and n2 P .
 
 ## 5.4.2 Elliptic ElGamal public key cryptosystem
 
-![image](./theory/elliptic_ellgamal.png)
+![image](./ressources/elliptic_ellgamal.png)
 
 ## 5.5 The evolution of public key cryptography
 
 ## Appendix: Elliptic curve digital signature algorithm (ECDSA) from chapter 7.7
 
 
-![image](./theory/ecdsa.png)
+![image](./ressources/ecdsa.png)
 
 Note the ephermal key e is generated randomly and is never reused. That means any signature (s1, s2) signining a message d is not unique. In contrast, q - 1 signatures exists which can all be used to sign the same message. This is called the _Ephermal Signature Problem_. 
 One solution to that problem is to use a deterministic value for k as descripted in this paper: https://www.rfc-editor.org/rfc/rfc6979

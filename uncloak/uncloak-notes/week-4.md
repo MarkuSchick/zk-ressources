@@ -8,7 +8,7 @@ The need for authenticated encryption emerged from the observation that securely
 
 ## Encrypt-then-MAC (EtM)
 
-![EtM approach](./theory/Authenticated_Encryption_EtM.png "EtM approach")
+![EtM approach](./ressources/Authenticated_Encryption_EtM.png "EtM approach")
 
 The
 plaintext is first encrypted, then a MAC is produced based on the
@@ -24,7 +24,7 @@ Further reading of the pros and cons of all approaches can be found [here](https
 
 ## Encrypt-and-MAC (E&M)
 
-![E&M approach](./theory/Authenticated_Encryption_EaM.png "E&M approach")
+![E&M approach](./ressources/Authenticated_Encryption_EaM.png "E&M approach")
 
 A MAC is produced based on the plaintext, and the plaintext is encrypted
 without the MAC. The plaintext\'s MAC and the ciphertext are sent
@@ -32,7 +32,7 @@ together.
 
 ## MAC-then-Encrypt (MtE)
 
-![MtE approach](./theory/Authenticated_Encryption_MtE.png "MtE approach")
+![MtE approach](./ressources/Authenticated_Encryption_MtE.png "MtE approach")
 
 A MAC is produced based on the plaintext, then the plaintext and MAC are
 together encrypted to produce a ciphertext based on both. The ciphertext

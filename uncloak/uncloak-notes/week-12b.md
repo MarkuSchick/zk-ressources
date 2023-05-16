@@ -2,7 +2,7 @@
 
 # 7.1 What is a digital signature
 
-![image](./theory/signing_algo.png)
+![image](./ressources/signing_algo.png)
 
 It would be very inefficient to sign a full document. The signature would likely be as large as the original document.
 
@@ -16,7 +16,7 @@ _skipped as we skipped the RSA chapter_
 
 ## 7.3.1 ElGamal digital signatures
 
-![image](./theory/ElGamal_signing.png)
+![image](./ressources/ElGamal_signing.png)
 
 Victor veriﬁes the signature by checking that
 
@@ -30,7 +30,7 @@ $v^{S1} S1^{S2} ≡ g^{sS1} · g^{eS2} ≡ g^{sS1 +eS2} ≡ g^{ sS1 +e(D−sS1 )
 
 The _Digital Signature Algorithm (DSA)_ signiﬁcantly shortens the signature by working in a subgroup of $F^{∗}_p$ of prime order q.
 
-![image](./theory/DSA_signing.png)      
+![image](./ressources/DSA_signing.png)      
 
 _Note that DSA uses an additional large prime q_ _image_caption_ In a typical example we would have $2^{1000} < p < 2^{2000}$ and $2^{160} < q < 2^{320}$. As q < p, we can reduce the size of the signatures.
 

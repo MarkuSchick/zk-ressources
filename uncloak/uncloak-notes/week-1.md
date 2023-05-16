@@ -13,7 +13,7 @@ the private key of the privileged account can allow a hacker to DDOS the contrac
 
 In a symmetric-key system each person needs to exchange a unique key with anyone else. Each person has to exchange 29 keys. So 29 \* 30 / 2 = 435 keys need to be exchanged.
 
-reference: [Triangular Numbers](theory/triangular_numbers.md)
+reference: [Triangular Numbers](ressources/triangular_numbers.md)
 
 `Q4. Suppose Bob receives a messages signed using a digital signature scheme with Alice’s secret signing key. Does it prove that Alice saw the message and chose to sign.`
 We must assume that only Alice has access to their private key and neither the signing algorithm nor that particular signature have been compromised. If this is the case then yes, it proves that Alice saw the message and chose to sign it.

@@ -18,7 +18,7 @@ The number x is called the discrete logarithm of h to the base g and is denoted 
 
 ## 2.3 Diffie-Hellmann key exchange
 
-![image](./theory/Diffie-Hellmann-Key-Exchange.png)
+![image](./ressources/Diffie-Hellmann-Key-Exchange.png)
 
 One could think that the difficulty of Eve in decrypting the messages here is to solve the Discrete Logarithm Problem (DLP) as $g^a$ and $g^b$ as well as g and p are known. One just have to solve for a and b.
 
@@ -30,7 +30,7 @@ It is clear that the DHP is no harder than the DLP. If Eve can solve the DLP, th
 
 # 2.4 The ElGamal public key cryptosystem
 
-![image](./theory/ElGamal.png)
+![image](./ressources/ElGamal.png)
 
 "the second public key cryptosystem (after RSA) after the DH paper was published, follows DH most closely "
 
@@ -112,6 +112,6 @@ List 2: $h, h · g^{−n }, h · g^{−2n} , h · g^{−3n} , . . . , h · g^{�
 
 (4) Then $x = i + jn$ is a solution to $g^x = h$.
 
-![image](./theory/Shanks.jpg)
+![image](./ressources/Shanks.jpg)
 
-![image](./theory/shanks-algorithm-example.jpg)
+![image](./ressources/shanks-algorithm-example.jpg)
